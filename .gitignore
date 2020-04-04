@@ -1,52 +1,18 @@
-# Prerequisites
-*.d
+#include<stdio.h>  
+#include<stdlib.h>>
+ int main()    
+{
+	   
+int a=10, b=20;                   /*Declaration of variables*/
+printf("Before swap\n a=%d, b=%d",a,b);          
+             
+a=a+b;    
+                    
+b=a-b;                       
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+a=a-b;   
+/*To mathematically make the variables equal to the values to each other.*/
+printf("\n After swap a=%d b=%d",a,b);    
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+return 0;  
+}   
